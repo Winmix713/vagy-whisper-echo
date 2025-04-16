@@ -2,10 +2,14 @@
 import React from 'react';
 import { Search, Bell, Sun, ChevronDown } from 'lucide-react';
 
-const Header = () => {
+interface HeaderProps {
+  title?: string;
+}
+
+export const Header: React.FC<HeaderProps> = ({ title = "Club summary" }) => {
   return (
     <header className="bg-liga-card h-16 w-full border-b border-gray-800 flex items-center px-4">
-      <h1 className="text-xl font-bold mr-auto">Club summary</h1>
+      <h1 className="text-xl font-bold mr-auto">{title}</h1>
       
       <div className="flex items-center space-x-4">
         <div className="relative">

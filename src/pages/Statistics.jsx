@@ -1,18 +1,19 @@
 
+import React from 'react';
 // components
-import PageHeader from '@layout/PageHeader';
-import AppGrid from '@layout/AppGrid';
-import PassesPieChart from '@widgets/PassesPieChart';
-import LineDotsChart from '@widgets/LineDotsChart';
-import PlayerMultiProgress from '@widgets/PlayerMultiProgress';
-import PlayerVerticalProgress from '@widgets/PlayerVerticalProgress';
-import PlayerSpeed from '@widgets/PlayerSpeed';
-import ChampionshipPositionChart from '@widgets/ChampionshipPositionChart';
-import TeamCompareChart from '@widgets/TeamCompareChart';
-import LiveMatches from '@widgets/LiveMatches';
-import WidgetGroup from '@components/WidgetGroup';
-import PlayerDiscipline from '@widgets/PlayerDiscipline';
-import PlayerBasicCard from '@components/PlayerBasicCard';
+import { Header as PageHeader } from '../components/layout/Header';
+import AppGrid from '../layout/AppGrid';
+import PassesPieChart from '../widgets/PassesPieChart';
+import LineDotsChart from '../widgets/LineDotsChart';
+import PlayerMultiProgress from '../widgets/PlayerMultiProgress';
+import PlayerVerticalProgress from '../widgets/PlayerVerticalProgress';
+import PlayerSpeed from '../widgets/PlayerSpeed';
+import ChampionshipPositionChart from '../widgets/ChampionshipPositionChart';
+import TeamCompareChart from '../widgets/TeamCompareChart';
+import LiveMatches from '../widgets/LiveMatches';
+import WidgetGroup from '../components/WidgetGroup';
+import PlayerDiscipline from '../widgets/PlayerDiscipline';
+import PlayerBasicCard from '../components/PlayerBasicCard';
 
 const widgets = {
     player_cards: <WidgetGroup>

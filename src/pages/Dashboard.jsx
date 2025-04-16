@@ -1,16 +1,17 @@
 
+import React from 'react';
 // components
-import PageHeader from '@layout/PageHeader';
-import AppGrid from '@layout/AppGrid';
-import TeamStats from '@widgets/TeamStats';
-import Points from '@widgets/Points';
-import Attendance from '@widgets/Attendance';
-import TrainingPaceChart from '@widgets/TrainingPaceChart';
-import MatchLiveReport from '@widgets/MatchLiveReport';
-import WidgetGroup from '@components/WidgetGroup';
-import TeamFullInfo from '@widgets/TeamFullInfo';
-import TeamResults from '@widgets/TeamResults';
-import LeagueStandings from '@widgets/LeagueStandings';
+import { Header as PageHeader } from '../components/layout/Header';
+import AppGrid from '../layout/AppGrid';
+import TeamStats from '../widgets/TeamStats';
+import Points from '../widgets/Points';
+import Attendance from '../widgets/Attendance';
+import TrainingPaceChart from '../widgets/TrainingPaceChart';
+import MatchLiveReport from '../widgets/MatchLiveReport';
+import WidgetGroup from '../components/WidgetGroup';
+import TeamFullInfo from '../widgets/TeamFullInfo';
+import TeamResults from '../widgets/TeamResults';
+import LeagueStandings from '../widgets/LeagueStandings';
 
 const widgets = {
     team_stats: <TeamStats/>,

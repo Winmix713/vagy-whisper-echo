@@ -1,19 +1,20 @@
 
+import React from 'react';
 // components
-import PageHeader from '@layout/PageHeader';
-import AppGrid from '@layout/AppGrid';
-import User from '@widgets/User';
-import WidgetGroup from '@components/WidgetGroup';
-import Weather from '@widgets/Weather';
-import Attendance from '@widgets/Attendance';
-import TeamStatsProgress from '@widgets/TeamStatsProgress';
-import PassesPolarChart from '@widgets/PassesPolarChart';
-import BassPossessionAreaChartMini from '@widgets/BassPossessionAreaChartMini';
-import MatchResultBasic from '@widgets/MatchResultBasic';
-import TeamsLineups from '@widgets/TeamsLineups';
-import MatchLiveEvents from '@widgets/MatchLiveEvents';
-import Coach from '@widgets/Coach';
-import PlayerBasicCard from '@components/PlayerBasicCard';
+import { Header as PageHeader } from '../components/layout/Header';
+import AppGrid from '../layout/AppGrid';
+import User from '../widgets/User';
+import WidgetGroup from '../components/WidgetGroup';
+import Weather from '../widgets/Weather';
+import Attendance from '../widgets/Attendance';
+import TeamStatsProgress from '../widgets/TeamStatsProgress';
+import PassesPolarChart from '../widgets/PassesPolarChart';
+import BassPossessionAreaChartMini from '../widgets/BassPossessionAreaChartMini';
+import MatchResultBasic from '../widgets/MatchResultBasic';
+import TeamsLineups from '../widgets/TeamsLineups';
+import MatchLiveEvents from '../widgets/MatchLiveEvents';
+import Coach from '../widgets/Coach';
+import PlayerBasicCard from '../components/PlayerBasicCard';
 
 const widgets = {
     user: <User />,
