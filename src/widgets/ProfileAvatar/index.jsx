@@ -3,18 +3,18 @@
 import styles from './styles.module.scss';
 
 // components
-import Spring from '../components/Spring';
-import LazyImage from '../components/LazyImage';
-import Submenu from '../ui/Submenu';
+import Spring from '../../components/Spring';
+import LazyImage from '../../components/LazyImage';
+import Submenu from '../../ui/Submenu';
 
 // hooks
 import {useRef} from 'react';
-import useFileReader from '../hooks/useFileReader';
-import useSubmenu from '../hooks/useSubmenu';
+import useFileReader from '../../hooks/useFileReader';
+import useSubmenu from '../../hooks/useSubmenu';
 
 // assets
-import user from '../assets/user.webp';
-import placeholder from '../assets/placeholder.webp';
+import user from '../../assets/user.webp';
+import placeholder from '../../assets/placeholder.webp';
 
 const ProfileAvatar = () => {
     const {anchorEl, open, handleClick, handleClose} = useSubmenu();

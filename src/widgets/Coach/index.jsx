@@ -3,14 +3,14 @@
 import styles from './styles.module.scss';
 
 // components
-import LazyImage from '../components/LazyImage';
+import LazyImage from '../../components/LazyImage';
 
 // hooks
-import {useThemeProvider} from '../contexts/themeContext';
+import {useThemeProvider} from '../../contexts/themeContext';
 
 // assets
-import zidane from '../assets/zidane.webp';
-import lacoruna from '../assets/clubs/lacoruna.webp';
+import zidane from '../../assets/zidane.webp';
+import lacoruna from '../../assets/clubs/lacoruna.webp';
 
 const Coach = () => {
     const {direction} = useThemeProvider();

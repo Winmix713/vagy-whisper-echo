@@ -29,6 +29,7 @@ export default defineConfig(({ mode }) => ({
       "@layout": path.resolve(__dirname, "./src/layout"),
       "@pages": path.resolve(__dirname, "./src/pages"),
       "@widgets": path.resolve(__dirname, "./src/widgets"),
+      "@db": path.resolve(__dirname, "./src/db"),
     },
   },
 }));

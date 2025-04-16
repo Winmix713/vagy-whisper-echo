@@ -1,14 +1,15 @@
+
 // components
-import PageHeader from '@layout/PageHeader';
-import AppGrid from '@layout/AppGrid';
-import PlayerProfileCard from '@widgets/PlayerProfileCard';
-import TrainingPaceChart from '@widgets/TrainingPaceChart';
-import GamesCalendar from '@widgets/GamesCalendar';
-import ShotsStats from '@widgets/ShotStats';
-import TrainingsPlanner from '@widgets/TrainingsPlanner';
-import LatestMessages from '@widgets/LatestMessages';
-import HotField from '@widgets/HotField';
-import ChampionsLeague from '@widgets/ChampionsLeague';
+import PageHeader from '../layout/PageHeader';
+import AppGrid from '../layout/AppGrid';
+import PlayerProfileCard from '../widgets/PlayerProfileCard';
+import TrainingPaceChart from '../widgets/TrainingPaceChart';
+import GamesCalendar from '../widgets/GamesCalendar';
+import ShotsStats from '../widgets/ShotStats';
+import TrainingsPlanner from '../widgets/TrainingsPlanner';
+import LatestMessages from '../widgets/LatestMessages';
+import HotField from '../widgets/HotField';
+import ChampionsLeague from '../widgets/ChampionsLeague';
 
 const widgets = {
     profile_card: <PlayerProfileCard />,
@@ -21,7 +22,7 @@ const widgets = {
     champions: <ChampionsLeague />
 }
 
-const Tickets = () => {
+const PlayerProfile = () => {
     return (
         <>
             <PageHeader title="Player Profile" />
@@ -30,4 +31,4 @@ const Tickets = () => {
     )
 }
 
-export default Tickets
+export default PlayerProfile
