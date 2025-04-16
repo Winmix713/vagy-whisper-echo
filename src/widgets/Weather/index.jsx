@@ -1,21 +1,22 @@
+
 // styling
 import styles from './styles.module.scss';
 
 // components
-import Spring from '@components/Spring';
-import ElementTooltip from '@ui/ElementTooltip';
+import Spring from '../components/Spring';
+import ElementTooltip from '../ui/ElementTooltip';
 
 // hooks
 import {useGeolocation} from 'react-use';
 import {useEffect, useState} from 'react';
-import {useThemeProvider} from '@contexts/themeContext';
+import {useThemeProvider} from '../contexts/themeContext';
 
 // utils
 import dayjs from 'dayjs';
 import axios from 'axios';
 
 // constants
-import WEATHER_CODES from '@constants/weather';
+import WEATHER_CODES from '../constants/weather';
 
 // dayjs plugins
 const isBetween = require('dayjs/plugin/isBetween')

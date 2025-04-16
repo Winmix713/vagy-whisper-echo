@@ -1,11 +1,12 @@
+
 // components
-import Spring from '@components/Spring';
-import LazyImage from '@components/LazyImage';
-import PlayerInfo from '@components/PlayerInfo';
+import Spring from '../components/Spring';
+import LazyImage from '../components/LazyImage';
+import PlayerInfo from '../components/PlayerInfo';
 
 // assets
-import field from '@assets/field.webp';
-import avatar from '@assets/players/11.webp';
+import field from '../assets/field.webp';
+import avatar from '../assets/players/11.webp';
 
 const HotField = () => {
     return (

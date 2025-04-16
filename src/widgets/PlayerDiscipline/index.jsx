@@ -1,14 +1,15 @@
+
 // styling
 import styles from './styles.module.scss'
 
 // components
-import LazyImage from '@components/LazyImage';
+import LazyImage from '../components/LazyImage';
 
 // hooks
-import {useThemeProvider} from '@contexts/themeContext';
+import {useThemeProvider} from '../contexts/themeContext';
 
 // utils
-import {getClubInfo} from '@utils/helpers';
+import {getClubInfo} from '../utils/helpers';
 import PropTypes from 'prop-types';
 
 const PlayerDiscipline = ({clubID = 'realmadrid', firstName = 'Manuel', lastName = 'Neuer', red = 1, yellow = 6}) => {
