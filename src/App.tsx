@@ -13,6 +13,8 @@ import Matches from "./pages/Matches";
 import Profile from "./pages/Profile";
 import Ecommerce from "./pages/Ecommerce";
 import Settings from "./pages/Settings";
+import Statistics from "./pages/Statistics";
+import MatchSummary from "./pages/MatchSummary";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +31,8 @@ const App = () => (
             <Route path="/profile" element={<Profile />} />
             <Route path="/ecommerce" element={<Ecommerce />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/statistics" element={<Statistics />} />
+            <Route path="/match-summary" element={<MatchSummary />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
