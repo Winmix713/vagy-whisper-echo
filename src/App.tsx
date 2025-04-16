@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Dashboard from "./pages/Dashboard";
 import Matches from "./pages/Matches";
 import Profile from "./pages/Profile";
 import Ecommerce from "./pages/Ecommerce";
@@ -22,11 +23,13 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/matches" element={<Matches />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/ecommerce" element={<Ecommerce />} />
-          <Route path="/settings" element={<Settings />} />
+          <Route path="/" element={<Index />}>
+            <Route index element={<Dashboard />} />
+            <Route path="/matches" element={<Matches />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/ecommerce" element={<Ecommerce />} />
+            <Route path="/settings" element={<Settings />} />
+          </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
